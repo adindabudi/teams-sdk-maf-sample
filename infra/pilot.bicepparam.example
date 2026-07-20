@@ -1,0 +1,13 @@
+using 'main.bicep'
+
+param namePrefix = 'teams-maf-pilot'
+param location = 'southeastasia'
+param tenantId = '00000000-0000-0000-0000-000000000000'
+param azureOpenAiResourceGroup = 'example-openai-resource-group'
+param azureOpenAiResourceName = 'example-openai-account'
+param azureOpenAiEndpoint = 'https://example-openai.openai.azure.com/'
+param azureOpenAiModel = 'gpt-5-mini'
+param engine = 'maf'
+
+// Bootstrap deployment defaults to a public placeholder image and no Azure Bot.
+// scripts/deploy.sh performs the second deployment with the immutable ACR image digest.

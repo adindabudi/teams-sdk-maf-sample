@@ -1,0 +1,65 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.29/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.29",
+  "version": "1.1.0",
+  "id": "__TEAMS_APP_ID__",
+  "developer": {
+    "name": "Community Sample Contributors",
+    "websiteUrl": "https://__HOSTNAME__",
+    "privacyUrl": "https://__HOSTNAME__/privacy",
+    "termsOfUseUrl": "https://__HOSTNAME__/terms"
+  },
+  "name": {
+    "short": "MAF Streaming",
+    "full": "Teams SDK and Microsoft Agent Framework Streaming Sample"
+  },
+  "description": {
+    "short": "Streams a replaceable Python agent engine into Teams and Copilot.",
+    "full": "A keyless Azure OpenAI sample where Microsoft Agent Framework generates native deltas and Microsoft Teams SDK delivers them to Teams personal chat and Microsoft 365 Copilot Chat."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#0F6CBD",
+  "bots": [
+    {
+      "botId": "__BOT_ID__",
+      "scopes": ["personal", "copilot"],
+      "isNotificationOnly": false,
+      "supportsFiles": true,
+      "commandLists": [
+        {
+          "scopes": ["personal", "copilot"],
+          "commands": [
+            {
+              "title": "/approval-demo",
+              "description": "Request human approval for a safe demo action."
+            },
+            {
+              "title": "/image-demo",
+              "description": "Render a deterministic generated image."
+            },
+            {
+              "title": "/whoami",
+              "description": "Show the signed-in Microsoft Graph identity."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "copilotAgents": {
+    "customEngineAgents": [
+      {
+        "type": "bot",
+        "id": "__BOT_ID__"
+      }
+    ]
+  },
+  "validDomains": ["*.botframework.com", "__HOSTNAME__"],
+  "webApplicationInfo": {
+    "id": "__BOT_ID__",
+    "resource": "api://botid-__BOT_ID__"
+  }
+}

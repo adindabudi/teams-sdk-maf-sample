@@ -1,0 +1,6 @@
+config:
+  line-length: false
+  no-hard-tabs:
+    code_blocks: false
+  no-duplicate-heading:
+    siblings_only: true
