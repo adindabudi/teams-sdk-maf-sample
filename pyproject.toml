@@ -27,7 +27,7 @@ dependencies = [
     "httpx==0.28.1",
     "microsoft-teams-apps[graph]==2.0.14",
     "pillow==12.3.0",
-    "pydantic-settings==2.14.2",
+    "pydantic-settings==2.15.0",
     "tenacity==9.1.4",
 ]
 
