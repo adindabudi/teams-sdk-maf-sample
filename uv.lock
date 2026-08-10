@@ -1023,7 +1023,7 @@ wheels = [
 
 [[package]]
 name = "microsoft-teams-api"
-version = "2.0.14"
+version = "2.0.15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "microsoft-teams-cards" },
@@ -1031,14 +1031,14 @@ dependencies = [
     { name = "pydantic" },
     { name = "pyjwt", extra = ["crypto"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b9/7f/cb8d3edd4310a91029ef793e267d0addafa2ca598b4a6548a331bac67eca/microsoft_teams_api-2.0.14.tar.gz", hash = "sha256:719b4438671385490f2d6994a25c7341af282ba87dbba79ddc908573ff7320b9", size = 51690, upload-time = "2026-07-08T00:18:22.738Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/4d/49/d5c332feb8078d526bdfbeb3be7d9752d67a5be9618eca3933fc25714a98/microsoft_teams_api-2.0.15.tar.gz", hash = "sha256:baa42e4e38619de26b1c647fbd52ae047937c5b9ece4f2a743e6832510fd49ca", size = 55865, upload-time = "2026-08-04T17:12:00.4Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ff/34/a7b0d1fba3adb3e3c97136a8f9e539331b0be9d099ef7a0ef35b3d9d0084/microsoft_teams_api-2.0.14-py3-none-any.whl", hash = "sha256:bcb109e9656f0abed9317d64815c0745cb5f30d2063c5b5571058789c340b21c", size = 149737, upload-time = "2026-07-08T00:18:29.572Z" },
+    { url = "https://files.pythonhosted.org/packages/f4/09/8efc1f9a7ee3ef87d2f394b39355d884e76f35d9871a72530d2a8deab325/microsoft_teams_api-2.0.15-py3-none-any.whl", hash = "sha256:0072ffe68863a4c62818a4e631a186f092a4f09dfda74d1d4713415bac5d202d", size = 159805, upload-time = "2026-08-04T17:12:06.26Z" },
 ]
 
 [[package]]
 name = "microsoft-teams-apps"
-version = "2.0.14"
+version = "2.0.15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cryptography" },
@@ -1052,9 +1052,9 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "uvicorn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/67/83/0d3578e61bfbdb741507194cd643d83edd58720444cbd8f4d042f635d1cb/microsoft_teams_apps-2.0.14.tar.gz", hash = "sha256:8d59a71b0da3afe44f452bf7a32f4a8768e5adf6cfc36250b9fa877b41084ff6", size = 93853, upload-time = "2026-07-08T00:18:23.833Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/56/2d/494884aea3860b797093aa86f6eb10913d94fe3612c7bd2164600a70b641/microsoft_teams_apps-2.0.15.tar.gz", hash = "sha256:26cd8cbd269705fbaf4c00b2c9cef8b13b6abcc00caa74c9442d24a97f5dd4d3", size = 111318, upload-time = "2026-08-04T17:12:01.511Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/57/8d/5066057fe30402714f1d0e96a09f49a0ed5b46ab4e5a569e8b69d6f24eca/microsoft_teams_apps-2.0.14-py3-none-any.whl", hash = "sha256:f49a6d55f7c4c58215ba2f12981c4ad1fec6084167e93b6b95bf8cc1df79339c", size = 72463, upload-time = "2026-07-08T00:18:30.809Z" },
+    { url = "https://files.pythonhosted.org/packages/8c/21/54a28955d36ebfdfd4b727507a388fb1248cf812a5f8e92bb99242b8bf47/microsoft_teams_apps-2.0.15-py3-none-any.whl", hash = "sha256:852c5e3f18bf90275abf228d413f52170d2db8b29546656599ebdf3561fff31f", size = 80848, upload-time = "2026-08-04T17:12:07.57Z" },
 ]
 
 [package.optional-dependencies]
@@ -1064,28 +1064,28 @@ graph = [
 
 [[package]]
 name = "microsoft-teams-cards"
-version = "2.0.14"
+version = "2.0.15"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/45/73/5e337bf6bde2803d75e5990fc11085d83e99f6184bbd5d6efa5614a26239/microsoft_teams_cards-2.0.14.tar.gz", hash = "sha256:9a6170e72e9207c508b6cb91b950b7785177fbd57adb781c99bc8756e15e8977", size = 28109, upload-time = "2026-07-08T00:18:26.086Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/8a/0d/05054d629afb548937616a7e91cb8c2c2ffbf23e3ff774340ca0ee2a6dfa/microsoft_teams_cards-2.0.15.tar.gz", hash = "sha256:623d87fcd973c823deb5b78cccb27bc35471f535bef10116a7404255f6da5499", size = 28115, upload-time = "2026-08-04T17:12:03.284Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/0b/e9/c22bec14a6f4e8d5e054c23f150012afbf1ef3acf4ee871fc885728eae92/microsoft_teams_cards-2.0.14-py3-none-any.whl", hash = "sha256:5e2eaaed534eab688c25c16111e0159d2946228c7c35315f92f22fff826a30c6", size = 29602, upload-time = "2026-07-08T00:18:32.732Z" },
+    { url = "https://files.pythonhosted.org/packages/7d/b8/c4e5df0f6797363ff8a431bcee1a51a7d8b6fe2e5d4cac21a6bd58e9f50f/microsoft_teams_cards-2.0.15-py3-none-any.whl", hash = "sha256:e2b0257d9b8782830df61eb6aa993a1ddc0349daddd845739da45d2a29a0c44b", size = 29602, upload-time = "2026-08-04T17:12:09.232Z" },
 ]
 
 [[package]]
 name = "microsoft-teams-common"
-version = "2.0.14"
+version = "2.0.15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/28/3e/07ccc19e13e07a1b76e8ad75edbdaea167cc4dd5a4c65ed680225df9da84/microsoft_teams_common-2.0.14.tar.gz", hash = "sha256:fa852a495ca398e5cad5b79fa692490e4d2ddc52c92fc11bda6643b5847a168a", size = 11132, upload-time = "2026-07-08T00:18:27.358Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/42/a4/df7296b1abd521a132de2efdb8707934f7e3343fa5a24868b475db37bf61/microsoft_teams_common-2.0.15.tar.gz", hash = "sha256:00d31bc65b8a5766ed4e437a0b6794c0bcc06291fed4815354cd076093f978ac", size = 11130, upload-time = "2026-08-04T17:12:04.201Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/68/0e/8abf463737a7352f20e86ec1d37ff23a596e3b23dd5dc874f56306a4c789/microsoft_teams_common-2.0.14-py3-none-any.whl", hash = "sha256:5517f4ea7487077c9b5bc44a67ab7bed6551dd2c46fc5d95cbce4a04647ae15e", size = 16571, upload-time = "2026-07-08T00:18:33.856Z" },
+    { url = "https://files.pythonhosted.org/packages/8d/91/01e6aeddd78639c74489c24785f2cec0f842ba16f3b594db202386bd721d/microsoft_teams_common-2.0.15-py3-none-any.whl", hash = "sha256:c61057695b9f1a97de9b6f54f0c66206903f56c22427b0bca31e0fc34da49311", size = 16572, upload-time = "2026-08-04T17:12:10.085Z" },
 ]
 
 [[package]]
 name = "microsoft-teams-graph"
-version = "2.0.14"
+version = "2.0.15"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "azure-core" },
@@ -1093,9 +1093,9 @@ dependencies = [
     { name = "msgraph-sdk" },
     { name = "pyjwt", extra = ["crypto"] },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/49/26/4b6a66b75441028752ce3bbc8cf77c1968cf2228639347def24fc49bb1f0/microsoft_teams_graph-2.0.14.tar.gz", hash = "sha256:578684151aff4191bca9953ffde808bd229083830775e5587d46e59714b69bd9", size = 5194, upload-time = "2026-07-08T00:18:28.492Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/71/d1/7862b3de8e06454ea7bea3abf55bd477ee11f97dcd8eb45bd083741bebd3/microsoft_teams_graph-2.0.15.tar.gz", hash = "sha256:eee7b777e713090b62b8136fe4e4b5645a8f62f1b52a435aeaf44de47f49ad58", size = 5196, upload-time = "2026-08-04T17:12:05.218Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cd/b4/d2a4a639d0b7a5179c0590603a8a53d1b66b4b3fa8c080fe5af52bc12de7/microsoft_teams_graph-2.0.14-py3-none-any.whl", hash = "sha256:0680c359a8d4c9908c2c025fc2e205cc7de57247300449e4f77090d06d78491b", size = 5712, upload-time = "2026-07-08T00:18:34.893Z" },
+    { url = "https://files.pythonhosted.org/packages/d1/31/09b2fe52a3b44e308bda014d8a6e063f0ab784a722c8a74c4e972da87d3e/microsoft_teams_graph-2.0.15-py3-none-any.whl", hash = "sha256:41ff3496f1f4ede77859631d08fc6de7985b19827dccd41a9a406ef4b0116cbd", size = 5711, upload-time = "2026-08-04T17:12:10.931Z" },
 ]
 
 [[package]]
@@ -2145,7 +2145,7 @@ requires-dist = [
     { name = "azure-monitor-opentelemetry", specifier = "==1.8.9" },
     { name = "azure-storage-blob", specifier = "==12.30.0" },
     { name = "httpx", specifier = "==0.28.1" },
-    { name = "microsoft-teams-apps", extras = ["graph"], specifier = "==2.0.14" },
+    { name = "microsoft-teams-apps", extras = ["graph"], specifier = "==2.0.15" },
     { name = "pillow", specifier = "==12.3.0" },
     { name = "pydantic-settings", specifier = "==2.14.2" },
     { name = "tenacity", specifier = "==9.1.4" },

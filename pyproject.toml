@@ -25,7 +25,7 @@ dependencies = [
     "azure-monitor-opentelemetry==1.8.9",
     "azure-storage-blob==12.30.0",
     "httpx==0.28.1",
-    "microsoft-teams-apps[graph]==2.0.14",
+    "microsoft-teams-apps[graph]==2.0.15",
     "pillow==12.3.0",
     "pydantic-settings==2.14.2",
     "tenacity==9.1.4",
